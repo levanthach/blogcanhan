@@ -1,0 +1,96 @@
+/*Responsive Mobile*/
+@media only screen and (min-width: 320px) and (max-width: 648px){
+	p.hero-subtitle {
+	    font-size: 16px;
+	}
+
+	h1.hero-name {
+	    font-size: 36px;
+	}
+
+	h5.hero-banner {
+	    font-size: 16px;
+	    position: relative;
+	    top: 12px;
+	}
+
+	.about.text-center, .services.text-center, .portfolio.text-center, .contact.text-center {
+    	font-size: 30px;
+    }
+
+    hr.ngan  {
+    	width: 105px;
+    }
+
+    .about i.far.fa-circle {
+	    position: relative;
+	    left: 46%;
+	    top: -38px;
+	    font-size: 12px; 
+	}
+
+	.services i.far.fa-circle,.portfolio i.far.fa-circle,.contact-form i.far.fa-circle {
+		left: 46%;
+	}
+	
+	.portfolio hr.ngan{
+		margin-top: 10px;
+	}
+
+	.box-content h4 {
+	    color: #22272c;
+	    font-weight: bold;
+	    margin-left: 40px;
+	    font-size: 16px;
+	}
+	.col-small-sv {
+		padding-bottom: 0;
+	}
+	.col-small-sv .icon i {
+	    font-size: 30px;
+	    line-height: 38px;
+	    -webkit-transition: all .3s;
+	    transition: all .3s;
+	    position: absolute;
+	    margin-top: -1px;
+	}
+	.box-content p {
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	h1.skill-person,.person-tittle {
+	    font-size: 25px;
+	    margin-top: 21px;
+	}
+	.row.quote-content h1 {
+	    color: #fff;
+	    font-weight: 600;
+	    font-size: 28px;
+	}
+	.cp-left {
+		font-size: 10px;
+	}
+
+	.cp-right {
+	    position: relative;
+	    font-size: 10px;
+	    top: 10px;
+	    left: 0px;
+	    text-align: center;
+	}
+
+	i.fas.fa-long-arrow-alt-up {
+		right: 5%;
+	}
+
+	.fun-box {
+	    font-size: 30px;
+	    margin-top: 20px;
+	    color: white;
+	}
+	section.section-space.parallax.parallax-funfactor.light-txt {
+		padding-bottom: 35px;
+		padding-top: 25px;
+	}
+}
